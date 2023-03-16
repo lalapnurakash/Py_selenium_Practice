@@ -1,0 +1,1463 @@
+versions pytest-7.2.0, python-3.11.0.final.0
+cwd=C:\Users\1003633\PycharmProjects\selenium_demo
+args=('-vvv', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000002209781CB10>
+    pytest_plugin_registered [hook]
+        plugin: <Session selenium_demo exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000002209781CB10>
+    early skip of rewriting module: email.parser [assertion]
+    early skip of rewriting module: email.feedparser [assertion]
+      pytest_metadata [hook]
+          metadata: {'Python': '3.11.0', 'Platform': 'Windows-10-10.0.19044-SP0', 'Packages': {'pytest': '7.2.0', 'pluggy': '1.0.0'}, 'Plugins': {'html': '3.2.0', 'metadata': '2.0.4'}, 'JAVA_HOME': 'C:\\Program Files\\java\\jdk-17.0.4.1\\bin'}
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000220979A2750>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000220979AF250>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000002209781CB10>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x0000022096EBF950>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x000002209799B390>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000220979A2750>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000220979AF250>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000220979AFCD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000220979E6610>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000002209781CB10>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x0000022096EBF950>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x000002209799B390>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000220979A2750>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000220979AF250>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000220979AFCD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000220979E6610>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x00000220979E7E90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000022097735E90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x000002209781CB10>
+          start_path: C:\Users\1003633\PycharmProjects\selenium_demo
+          startdir: C:\Users\1003633\PycharmProjects\selenium_demo
+      finish pytest_report_header --> [['rootdir: C:\\Users\\1003633\\PycharmProjects\\selenium_demo', 'plugins: html-3.2.0, metadata-2.0.4'], "metadata: {'Python': '3.11.0', 'Platform': 'Windows-10-10.0.19044-SP0', 'Packages': {'pytest': '7.2.0', 'pluggy': '1.0.0'}, 'Plugins': {'html': '3.2.0', 'metadata': '2.0.4'}, 'JAVA_HOME': 'C:\\\\Program Files\\\\java\\\\jdk-17.0.4.1\\\\bin'}", 'cachedir: .pytest_cache', ['using: pytest-7.2.0', 'setuptools registered plugins:', '  pytest-html-3.2.0 at C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-metadata-2.0.4 at C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\Users\\1003633\\PycharmProjects\\selenium_demo'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (WindowsPath('C:/Users/1003633/PycharmProjects/selenium_demo'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\main.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\main.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\main.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\main.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestdebug.log
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestdebug.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestdebug.log
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\.idea
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\.idea
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\.pytest_cache
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\.pytest_cache
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+                  path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\__init__.py
+              finish pytest_pycollect_makemodule --> <Package fileutils> [hook]
+            finish pytest_collect_file --> [<Package fileutils>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\.pytest_cache
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\.pytest_cache
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+                  path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\__init__.py
+              finish pytest_pycollect_makemodule --> <Package pytestprograms> [hook]
+            finish pytest_collect_file --> [<Package pytestprograms>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\.pytest_cache
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\.pytest_cache
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+                  path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\__init__.py
+              finish pytest_pycollect_makemodule --> <Package sample1> [hook]
+            finish pytest_collect_file --> [<Package sample1>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+                  path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\__init__.py
+              finish pytest_pycollect_makemodule --> <Package setdriver> [hook]
+            finish pytest_collect_file --> [<Package setdriver>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x000002209781CB10>
+                collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\venv
+                path: C:\Users\1003633\PycharmProjects\selenium_demo\venv
+            finish pytest_ignore_collect --> True [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=4 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=4 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package fileutils> [collection]
+      pytest_collectstart [hook]
+          collector: <Package fileutils>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package fileutils>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\Handlefiles.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\Handlefiles.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package fileutils>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\Handlefiles.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\Handlefiles.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package fileutils>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package fileutils>
+              module_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+              path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py
+          finish pytest_pycollect_makemodule --> <Module test_demo1.py> [hook]
+        finish pytest_collect_file --> [<Module test_demo1.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\.pytest_cache
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\.pytest_cache
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'fileutils/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_demo1.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_demo1.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_demo1.py>
+      early skip of rewriting module: fileutils [assertion]
+      find_module called for: fileutils.test_demo1 [assertion]
+      matched test file 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\fileutils\\test_demo1.py' [assertion]
+      _read_pyc(C:\Users\1003633\PycharmProjects\selenium_demo\fileutils\test_demo1.py): out of date [assertion]
+      rewriting WindowsPath('C:/Users/1003633/PycharmProjects/selenium_demo/fileutils/test_demo1.py') [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'fileutils/test_demo1.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module test_demo1.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo CollectError(ExceptionChainRepr(chain=[(ReprTraceback(reprentries=[ReprEntry(lines=['    mod = import_path(self.path, ..._demo1.py", line 10\n    driver.switch_to.alert.\n                           ^\nSyntaxError: invalid syntax'), None)])) tblen=7>>
+          report: <CollectReport 'fileutils/test_demo1.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'fileutils/test_demo1.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'fileutils/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package pytestprograms> [collection]
+      pytest_collectstart [hook]
+          collector: <Package pytestprograms>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package pytestprograms>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pytestprograms>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package pytestprograms>
+              module_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+              path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py
+          finish pytest_pycollect_makemodule --> <Module test_demo1.py> [hook]
+        finish pytest_collect_file --> [<Module test_demo1.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pytestprograms>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package pytestprograms>
+              module_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+              path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py
+          finish pytest_pycollect_makemodule --> <Module test_messagewith.py> [hook]
+        finish pytest_collect_file --> [<Module test_messagewith.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\.pytest_cache
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\.pytest_cache
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytestprograms/__init__.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Module test_demo1.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_demo1.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_demo1.py>
+      early skip of rewriting module: pytestprograms [assertion]
+      find_module called for: pytestprograms.test_demo1 [assertion]
+      matched test file 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\pytestprograms\\test_demo1.py' [assertion]
+      found cached rewritten pyc for C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_demo1.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: pytest
+            obj: <module 'pytest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: __warningregistry__
+            obj: {'version': 26, ('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html', <class 'pytest.PytestUnknownMarkWarning'>, 2): True, ('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html', <class 'pytest.PytestUnknownMarkWarning'>, 7): True, ('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html', <class 'pytest.PytestUnknownMarkWarning'>, 12): True}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: test_samp
+            obj: <function test_samp at 0x000002209919F4C0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022099C6EDD0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_samp>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: test_name
+            obj: <function test_name at 0x000002209919F560>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022099C6CB50>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_name>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_demo1.py>
+            name: test_hello
+            obj: <function test_hello at 0x000002209919F740>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000022099C6DC10>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_hello>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytestprograms/test_demo1.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function test_samp> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_samp>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_name> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_name>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_hello> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_hello>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytestprograms/test_demo1.py' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_messagewith.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_messagewith.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_messagewith.py>
+      find_module called for: pytestprograms.test_messagewith [assertion]
+      matched test file 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\pytestprograms\\test_messagewith.py' [assertion]
+      _read_pyc(C:\Users\1003633\PycharmProjects\selenium_demo\pytestprograms\test_messagewith.py): out of date [assertion]
+      rewriting WindowsPath('C:/Users/1003633/PycharmProjects/selenium_demo/pytestprograms/test_messagewith.py') [assertion]
+      early skip of rewriting module: pywhatkit [assertion]
+      early skip of rewriting module: pywhatkit.ascii_art [assertion]
+      early skip of rewriting module: PIL [assertion]
+      early skip of rewriting module: PIL._version [assertion]
+      early skip of rewriting module: PIL.Image [assertion]
+      early skip of rewriting module: defusedxml [assertion]
+      early skip of rewriting module: PIL.ImageMode [assertion]
+      early skip of rewriting module: PIL.TiffTags [assertion]
+      early skip of rewriting module: PIL._binary [assertion]
+      early skip of rewriting module: PIL._deprecate [assertion]
+      early skip of rewriting module: PIL._util [assertion]
+      early skip of rewriting module: PIL._imaging [assertion]
+      early skip of rewriting module: cffi [assertion]
+      early skip of rewriting module: cffi.api [assertion]
+      early skip of rewriting module: cffi.lock [assertion]
+      early skip of rewriting module: cffi.error [assertion]
+      early skip of rewriting module: cffi.model [assertion]
+      early skip of rewriting module: pywhatkit.handwriting [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: urllib3.packages [assertion]
+      early skip of rewriting module: urllib3.packages.six [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.http_client [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: ssl [assertion]
+      early skip of rewriting module: _ssl [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib._appengine_environ [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3.util.ssl_match_hostname [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: urllib3.request [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib.parse [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: urllib3.util.queue [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: urllib3_secure_extra [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.assets [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: unicodedata2 [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: nturl2path [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: importlib.readers [assertion]
+      early skip of rewriting module: importlib.resources.readers [assertion]
+      early skip of rewriting module: importlib.resources._itertools [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+      early skip of rewriting module: pywhatkit.core [assertion]
+      early skip of rewriting module: pywhatkit.core.exceptions [assertion]
+      early skip of rewriting module: pywhatkit.mail [assertion]
+      early skip of rewriting module: smtplib [assertion]
+      early skip of rewriting module: email.generator [assertion]
+      early skip of rewriting module: email.mime [assertion]
+      early skip of rewriting module: email.mime.text [assertion]
+      early skip of rewriting module: email.mime.nonmultipart [assertion]
+      early skip of rewriting module: email.mime.base [assertion]
+      early skip of rewriting module: email.policy [assertion]
+      early skip of rewriting module: email.headerregistry [assertion]
+      early skip of rewriting module: email._header_value_parser [assertion]
+      early skip of rewriting module: email.contentmanager [assertion]
+      early skip of rewriting module: pywhatkit.misc [assertion]
+      early skip of rewriting module: webbrowser [assertion]
+      early skip of rewriting module: wikipedia [assertion]
+      early skip of rewriting module: wikipedia.wikipedia [assertion]
+      early skip of rewriting module: bs4 [assertion]
+      early skip of rewriting module: bs4.builder [assertion]
+      early skip of rewriting module: bs4.element [assertion]
+      early skip of rewriting module: soupsieve [assertion]
+      early skip of rewriting module: soupsieve.__meta__ [assertion]
+      early skip of rewriting module: soupsieve.css_parser [assertion]
+      early skip of rewriting module: soupsieve.util [assertion]
+      early skip of rewriting module: soupsieve.css_match [assertion]
+      early skip of rewriting module: soupsieve.css_types [assertion]
+      early skip of rewriting module: soupsieve.pretty [assertion]
+      early skip of rewriting module: bs4.formatter [assertion]
+      early skip of rewriting module: bs4.dammit [assertion]
+      early skip of rewriting module: cchardet [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: bs4.builder._htmlparser [assertion]
+      early skip of rewriting module: html.parser [assertion]
+      early skip of rewriting module: _markupbase [assertion]
+      early skip of rewriting module: bs4.builder._html5lib [assertion]
+      early skip of rewriting module: html5lib [assertion]
+      early skip of rewriting module: bs4.builder._lxml [assertion]
+      early skip of rewriting module: lxml [assertion]
+      early skip of rewriting module: wikipedia.exceptions [assertion]
+      early skip of rewriting module: wikipedia.util [assertion]
+      early skip of rewriting module: PIL.ImageGrab [assertion]
+      early skip of rewriting module: pywhatkit.sc [assertion]
+      early skip of rewriting module: winerror [assertion]
+      early skip of rewriting module: pywhatkit.whats [assertion]
+      early skip of rewriting module: pyautogui [assertion]
+      early skip of rewriting module: pytweening [assertion]
+      early skip of rewriting module: pymsgbox [assertion]
+      early skip of rewriting module: tkinter [assertion]
+      early skip of rewriting module: _tkinter [assertion]
+      early skip of rewriting module: tkinter.constants [assertion]
+      early skip of rewriting module: pymsgbox._native_win [assertion]
+      early skip of rewriting module: pyscreeze [assertion]
+      early skip of rewriting module: PIL.ImageOps [assertion]
+      early skip of rewriting module: PIL.ImagePalette [assertion]
+      early skip of rewriting module: array [assertion]
+      early skip of rewriting module: PIL.GimpGradientFile [assertion]
+      early skip of rewriting module: PIL.GimpPaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageColor [assertion]
+      early skip of rewriting module: PIL.PaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageDraw [assertion]
+      early skip of rewriting module: cv2 [assertion]
+      early skip of rewriting module: pygetwindow [assertion]
+      early skip of rewriting module: pyrect [assertion]
+      early skip of rewriting module: doctest [assertion]
+      early skip of rewriting module: pygetwindow._pygetwindow_win [assertion]
+      early skip of rewriting module: mouseinfo [assertion]
+      early skip of rewriting module: pyperclip [assertion]
+      early skip of rewriting module: ctypes.util [assertion]
+      early skip of rewriting module: tkinter.ttk [assertion]
+      early skip of rewriting module: pyautogui._pyautogui_win [assertion]
+      early skip of rewriting module: pywhatkit.core.core [assertion]
+      early skip of rewriting module: pywhatkit.core.log [assertion]
+      early skip of rewriting module: netrc [assertion]
+      early skip of rewriting module: pywhatkit.remotekit [assertion]
+      early skip of rewriting module: flask [assertion]
+      early skip of rewriting module: markupsafe [assertion]
+      early skip of rewriting module: markupsafe._speedups [assertion]
+      early skip of rewriting module: markupsafe._native [assertion]
+      early skip of rewriting module: flask.json [assertion]
+      early skip of rewriting module: jinja2 [assertion]
+      early skip of rewriting module: jinja2.bccache [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: org [assertion]
+      early skip of rewriting module: jinja2.environment [assertion]
+      early skip of rewriting module: jinja2.nodes [assertion]
+      early skip of rewriting module: jinja2.utils [assertion]
+      early skip of rewriting module: jinja2.compiler [assertion]
+      early skip of rewriting module: jinja2.exceptions [assertion]
+      early skip of rewriting module: jinja2.idtracking [assertion]
+      early skip of rewriting module: jinja2.visitor [assertion]
+      early skip of rewriting module: jinja2.optimizer [assertion]
+      early skip of rewriting module: jinja2.defaults [assertion]
+      early skip of rewriting module: jinja2.filters [assertion]
+      early skip of rewriting module: jinja2.async_utils [assertion]
+      early skip of rewriting module: jinja2.runtime [assertion]
+      early skip of rewriting module: jinja2.tests [assertion]
+      early skip of rewriting module: jinja2.lexer [assertion]
+      early skip of rewriting module: jinja2._identifier [assertion]
+      early skip of rewriting module: jinja2.parser [assertion]
+      early skip of rewriting module: jinja2.loaders [assertion]
+      early skip of rewriting module: flask.globals [assertion]
+      early skip of rewriting module: contextvars [assertion]
+      early skip of rewriting module: _contextvars [assertion]
+      early skip of rewriting module: werkzeug [assertion]
+      early skip of rewriting module: werkzeug.serving [assertion]
+      early skip of rewriting module: socketserver [assertion]
+      early skip of rewriting module: http.server [assertion]
+      early skip of rewriting module: werkzeug._internal [assertion]
+      early skip of rewriting module: werkzeug.exceptions [assertion]
+      early skip of rewriting module: werkzeug.urls [assertion]
+      early skip of rewriting module: werkzeug.test [assertion]
+      early skip of rewriting module: werkzeug.datastructures [assertion]
+      early skip of rewriting module: werkzeug.http [assertion]
+      early skip of rewriting module: werkzeug.sansio [assertion]
+      early skip of rewriting module: werkzeug.sansio.http [assertion]
+      early skip of rewriting module: werkzeug.sansio.multipart [assertion]
+      early skip of rewriting module: werkzeug.utils [assertion]
+      early skip of rewriting module: pkgutil [assertion]
+      early skip of rewriting module: werkzeug.security [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: werkzeug.wsgi [assertion]
+      early skip of rewriting module: werkzeug.sansio.utils [assertion]
+      early skip of rewriting module: werkzeug.wrappers [assertion]
+      early skip of rewriting module: werkzeug.wrappers.request [assertion]
+      early skip of rewriting module: werkzeug.formparser [assertion]
+      early skip of rewriting module: werkzeug.sansio.request [assertion]
+      early skip of rewriting module: werkzeug.user_agent [assertion]
+      early skip of rewriting module: werkzeug.wrappers.response [assertion]
+      early skip of rewriting module: werkzeug.sansio.response [assertion]
+      early skip of rewriting module: werkzeug.local [assertion]
+      early skip of rewriting module: flask.json.provider [assertion]
+      early skip of rewriting module: flask.app [assertion]
+      early skip of rewriting module: click [assertion]
+      early skip of rewriting module: click.core [assertion]
+      early skip of rewriting module: click.types [assertion]
+      early skip of rewriting module: click._compat [assertion]
+      early skip of rewriting module: click._winconsole [assertion]
+      early skip of rewriting module: click.exceptions [assertion]
+      early skip of rewriting module: click.utils [assertion]
+      early skip of rewriting module: click.globals [assertion]
+      early skip of rewriting module: click.formatting [assertion]
+      early skip of rewriting module: click.parser [assertion]
+      early skip of rewriting module: click.termui [assertion]
+      early skip of rewriting module: click.decorators [assertion]
+      early skip of rewriting module: werkzeug.routing [assertion]
+      early skip of rewriting module: werkzeug.routing.converters [assertion]
+      early skip of rewriting module: werkzeug.routing.exceptions [assertion]
+      early skip of rewriting module: werkzeug.routing.map [assertion]
+      early skip of rewriting module: werkzeug.routing.matcher [assertion]
+      early skip of rewriting module: werkzeug.routing.rules [assertion]
+      early skip of rewriting module: flask.cli [assertion]
+      early skip of rewriting module: flask.helpers [assertion]
+      early skip of rewriting module: flask.signals [assertion]
+      early skip of rewriting module: blinker [assertion]
+      early skip of rewriting module: flask.typing [assertion]
+      early skip of rewriting module: flask.config [assertion]
+      early skip of rewriting module: flask.ctx [assertion]
+      early skip of rewriting module: flask.logging [assertion]
+      early skip of rewriting module: flask.scaffold [assertion]
+      early skip of rewriting module: flask.templating [assertion]
+      early skip of rewriting module: flask.sessions [assertion]
+      early skip of rewriting module: itsdangerous [assertion]
+      early skip of rewriting module: itsdangerous.encoding [assertion]
+      early skip of rewriting module: itsdangerous.exc [assertion]
+      early skip of rewriting module: itsdangerous.serializer [assertion]
+      early skip of rewriting module: itsdangerous.signer [assertion]
+      early skip of rewriting module: itsdangerous.timed [assertion]
+      early skip of rewriting module: itsdangerous.url_safe [assertion]
+      early skip of rewriting module: itsdangerous._json [assertion]
+      early skip of rewriting module: flask.json.tag [assertion]
+      early skip of rewriting module: flask.wrappers [assertion]
+      early skip of rewriting module: flask.blueprints [assertion]
+      early skip of rewriting module: app [assertion]
+      early skip of rewriting module: app [assertion]
+      early skip of rewriting module: app [assertion]
+      early skip of rewriting module: selenium [assertion]
+      early skip of rewriting module: selenium.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.chrome [assertion]
+      early skip of rewriting module: selenium.webdriver.chrome.options [assertion]
+      early skip of rewriting module: selenium.webdriver.chromium [assertion]
+      early skip of rewriting module: selenium.webdriver.chromium.options [assertion]
+      early skip of rewriting module: selenium.webdriver.common [assertion]
+      early skip of rewriting module: selenium.webdriver.common.desired_capabilities [assertion]
+      early skip of rewriting module: selenium.webdriver.common.options [assertion]
+      early skip of rewriting module: selenium.common [assertion]
+      early skip of rewriting module: selenium.common.exceptions [assertion]
+      early skip of rewriting module: selenium.webdriver.common.proxy [assertion]
+      early skip of rewriting module: selenium.webdriver.chrome.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.chromium.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.chromium.remote_connection [assertion]
+      early skip of rewriting module: selenium.webdriver.remote [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.remote_connection [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.utils [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.command [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.errorhandler [assertion]
+      early skip of rewriting module: selenium.webdriver.common.service [assertion]
+      early skip of rewriting module: selenium.types [assertion]
+      early skip of rewriting module: selenium.webdriver.common.utils [assertion]
+      early skip of rewriting module: selenium.webdriver.common.keys [assertion]
+      early skip of rewriting module: selenium.webdriver.common.selenium_manager [assertion]
+      early skip of rewriting module: selenium.webdriver.edge [assertion]
+      early skip of rewriting module: selenium.webdriver.edge.options [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.common.by [assertion]
+      early skip of rewriting module: selenium.webdriver.common.html5 [assertion]
+      early skip of rewriting module: selenium.webdriver.common.html5.application_cache [assertion]
+      early skip of rewriting module: selenium.webdriver.common.print_page_options [assertion]
+      early skip of rewriting module: selenium.webdriver.common.timeouts [assertion]
+      early skip of rewriting module: selenium.webdriver.common.virtual_authenticator [assertion]
+      early skip of rewriting module: selenium.webdriver.support [assertion]
+      early skip of rewriting module: selenium.webdriver.support.relative_locator [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.webelement [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.shadowroot [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.bidi_connection [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.file_detector [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.mobile [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.script_key [assertion]
+      early skip of rewriting module: selenium.webdriver.remote.switch_to [assertion]
+      early skip of rewriting module: selenium.webdriver.common.alert [assertion]
+      early skip of rewriting module: selenium.webdriver.chrome.service [assertion]
+      early skip of rewriting module: selenium.webdriver.chromium.service [assertion]
+      early skip of rewriting module: selenium.webdriver.common.action_chains [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.action_builder [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.interaction [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.key_actions [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.key_input [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.input_device [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.pointer_actions [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.mouse_button [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.pointer_input [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.wheel_actions [assertion]
+      early skip of rewriting module: selenium.webdriver.common.actions.wheel_input [assertion]
+      early skip of rewriting module: selenium.webdriver.edge.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.edge.service [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.firefox_profile [assertion]
+      early skip of rewriting module: xml.dom [assertion]
+      early skip of rewriting module: xml.dom.domreg [assertion]
+      early skip of rewriting module: xml.dom.minidom [assertion]
+      early skip of rewriting module: xml.dom.minicompat [assertion]
+      early skip of rewriting module: xml.dom.xmlbuilder [assertion]
+      early skip of rewriting module: xml.dom.NodeFilter [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.options [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.firefox_binary [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.remote_connection [assertion]
+      early skip of rewriting module: selenium.webdriver.firefox.service [assertion]
+      early skip of rewriting module: selenium.webdriver.ie [assertion]
+      early skip of rewriting module: selenium.webdriver.ie.options [assertion]
+      early skip of rewriting module: selenium.webdriver.ie.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.ie.service [assertion]
+      early skip of rewriting module: selenium.webdriver.safari [assertion]
+      early skip of rewriting module: selenium.webdriver.safari.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.safari.options [assertion]
+      early skip of rewriting module: selenium.webdriver.safari.remote_connection [assertion]
+      early skip of rewriting module: selenium.webdriver.safari.service [assertion]
+      early skip of rewriting module: selenium.webdriver.webkitgtk [assertion]
+      early skip of rewriting module: selenium.webdriver.webkitgtk.options [assertion]
+      early skip of rewriting module: selenium.webdriver.webkitgtk.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.webkitgtk.service [assertion]
+      early skip of rewriting module: selenium.webdriver.wpewebkit [assertion]
+      early skip of rewriting module: selenium.webdriver.wpewebkit.options [assertion]
+      early skip of rewriting module: selenium.webdriver.wpewebkit.webdriver [assertion]
+      early skip of rewriting module: selenium.webdriver.wpewebkit.service [assertion]
+      early skip of rewriting module: self [assertion]
+      early skip of rewriting module: decorator [assertion]
+      early skip of rewriting module: webdriver_manager [assertion]
+      early skip of rewriting module: webdriver_manager.chrome [assertion]
+      early skip of rewriting module: webdriver_manager.core [assertion]
+      early skip of rewriting module: webdriver_manager.core.download_manager [assertion]
+      early skip of rewriting module: webdriver_manager.core.http [assertion]
+      early skip of rewriting module: webdriver_manager.core.config [assertion]
+      early skip of rewriting module: dotenv [assertion]
+      early skip of rewriting module: dotenv.main [assertion]
+      early skip of rewriting module: dotenv.parser [assertion]
+      early skip of rewriting module: dotenv.variables [assertion]
+      early skip of rewriting module: webdriver_manager.core.utils [assertion]
+      early skip of rewriting module: tqdm [assertion]
+      early skip of rewriting module: tqdm._monitor [assertion]
+      early skip of rewriting module: tqdm._tqdm_pandas [assertion]
+      early skip of rewriting module: tqdm.cli [assertion]
+      early skip of rewriting module: tqdm.std [assertion]
+      early skip of rewriting module: tqdm.utils [assertion]
+      early skip of rewriting module: tqdm.version [assertion]
+      early skip of rewriting module: tqdm._dist_ver [assertion]
+      early skip of rewriting module: tqdm.gui [assertion]
+      early skip of rewriting module: webdriver_manager.core.archive [assertion]
+      early skip of rewriting module: tarfile [assertion]
+      early skip of rewriting module: pwd [assertion]
+      early skip of rewriting module: grp [assertion]
+      early skip of rewriting module: webdriver_manager.core.logger [assertion]
+      early skip of rewriting module: webdriver_manager.core.manager [assertion]
+      early skip of rewriting module: webdriver_manager.core.driver_cache [assertion]
+      early skip of rewriting module: webdriver_manager.core.constants [assertion]
+      early skip of rewriting module: webdriver_manager.drivers [assertion]
+      early skip of rewriting module: webdriver_manager.drivers.chrome [assertion]
+      early skip of rewriting module: packaging [assertion]
+      early skip of rewriting module: packaging.__about__ [assertion]
+      early skip of rewriting module: packaging.version [assertion]
+      early skip of rewriting module: packaging._structures [assertion]
+      early skip of rewriting module: webdriver_manager.core.driver [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: sleep
+            obj: <built-in function sleep>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: Any
+            obj: typing.Any
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: pywhatkit
+            obj: <module 'pywhatkit' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pywhatkit\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: pytest
+            obj: <module 'pytest' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: webdriver
+            obj: <module 'selenium.webdriver' from 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\venv\\Lib\\site-packages\\selenium\\webdriver\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: Service
+            obj: <class 'selenium.webdriver.chrome.service.Service'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: self
+            obj: <function self at 0x000002209AB11BC0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: ChromeDriverManager
+            obj: <class 'webdriver_manager.chrome.ChromeDriverManager'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: driver
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: setup_module
+            obj: <function setup_module at 0x000002209919ED40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: teardown_module
+            obj: <function teardown_module at 0x000002209A9DB9C0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: test_googletitle
+            obj: <function test_googletitle at 0x000002209ABABE20>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000002209A02F110>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_googletitle>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_messagewith.py>
+            name: _Module__pytest_setup_module
+            obj: <function Module._inject_setup_module_fixture.<locals>.xunit_setup_module_fixture at 0x000002209919F420>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytestprograms/test_messagewith.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_googletitle> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_googletitle>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytestprograms/test_messagewith.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytestprograms/__init__.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package sample1> [collection]
+      pytest_collectstart [hook]
+          collector: <Package sample1>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package sample1>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Check.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Check.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Check.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Check.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\DownloadShortPositions.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\DownloadShortPositions.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\DownloadShortPositions.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\DownloadShortPositions.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Example2.xlsx
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Example2.xlsx
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Example2.xlsx
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Example2.xlsx
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Exceldata.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Exceldata.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Exceldata.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Exceldata.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Metaclss_p.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Metaclss_p.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Metaclss_p.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\Metaclss_p.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\directory.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\directory.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\directory.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\directory.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadfiles.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadfiles.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadfiles.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadfiles.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadotherdocs.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadotherdocs.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadotherdocs.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\downloadotherdocs.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\dseries.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\dseries.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\dseries.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\dseries.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\geckodriver.log
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\geckodriver.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\geckodriver.log
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\geckodriver.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\noofdays.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\noofdays.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\noofdays.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\noofdays.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\pandasreaders.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\pandasreaders.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\pandasreaders.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\pandasreaders.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\readwithopenpyxl.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\readwithopenpyxl.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package sample1>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\readwithopenpyxl.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\readwithopenpyxl.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\sample1\files\Book1.xlsx
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'sample1/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'sample1/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package setdriver> [collection]
+      pytest_collectstart [hook]
+          collector: <Package setdriver>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package setdriver>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            collection_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\ChromeBrowser.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\ChromeBrowser.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package setdriver>
+            file_path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\ChromeBrowser.py
+            path: C:\Users\1003633\PycharmProjects\selenium_demo\setdriver\ChromeBrowser.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'setdriver/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'setdriver/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+          config: <_pytest.config.Config object at 0x000002209781CB10>
+          items: [<Function test_samp>, <Function test_name>, <Function test_hello>, <Function test_googletitle>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+            items: [<Function test_samp>, <Function test_name>, <Function test_hello>, <Function test_googletitle>]
+            start_path: C:\Users\1003633\PycharmProjects\selenium_demo
+            startdir: C:\Users\1003633\PycharmProjects\selenium_demo
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestUnknownMarkWarning('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html'), category : 'PytestUnknownMarkWarning', filename : 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\pytestprograms\\test_demo1.py', lineno : 2, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestUnknownMarkWarning('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html'), category : 'PytestUnknownMarkWarning', filename : 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\pytestprograms\\test_demo1.py', lineno : 7, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestUnknownMarkWarning('Unknown pytest.mark.login - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html'), category : 'PytestUnknownMarkWarning', filename : 'C:\\Users\\1003633\\PycharmProjects\\selenium_demo\\pytestprograms\\test_demo1.py', lineno : 12, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session selenium_demo exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=4>
+    pytest_keyboard_interrupt [hook]
+        excinfo: <ExceptionInfo Interrupted('1 error during collection') tblen=12>
+    finish pytest_keyboard_interrupt --> [] [hook]
+    pytest_sessionfinish [hook]
+        session: <Session selenium_demo exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=1 testscollected=4>
+        exitstatus: 2
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x00000220979AFCD0>
+          exitstatus: 2
+          config: <_pytest.config.Config object at 0x000002209781CB10>
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'fileutils/test_demo1.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x000002209781CB10>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000002209781CB10>
+    finish pytest_unconfigure --> [] [hook]

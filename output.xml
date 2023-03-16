@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.11.0 on win32)" generated="20221212 16:17:41.785" rpa="false" schemaversion="2">
+<suite id="s1" name="Keywordactns" source="C:\Users\1003633\PycharmProjects\selenium_demo\robotframedir\keywordactns.robot">
+<test id="s1-t1" name="keywordstst">
+<kw name="${pgt}= launchbrowser">
+<arg>${appurl}</arg>
+<arg>${browname}</arg>
+<msg timestamp="20221212 16:17:42.277" level="FAIL">No keyword with name '${pgt}= launchbrowser' found.</msg>
+<status status="FAIL" starttime="20221212 16:17:42.277" endtime="20221212 16:17:42.277"/>
+</kw>
+<kw name="Log To Console ${pgt}">
+<status status="NOT RUN" starttime="20221212 16:17:42.285" endtime="20221212 16:17:42.285"/>
+</kw>
+<status status="FAIL" starttime="20221212 16:17:42.269" endtime="20221212 16:17:42.285">No keyword with name '${pgt}= launchbrowser' found.</status>
+</test>
+<status status="FAIL" starttime="20221212 16:17:41.793" endtime="20221212 16:17:42.285"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Keywordactns">Keywordactns</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
